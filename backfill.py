@@ -220,7 +220,7 @@ def main():
 
     cfg = load_config()
     tz = ZoneInfo(cfg["timezone"])
-    client = ZeLogClient(cfg)
+    client = LogClient(cfg)
 
     print("Checking existing entries...")
     already_logged = existing_dates(client, tz) if not args.force else set()
