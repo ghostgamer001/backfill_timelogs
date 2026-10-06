@@ -10,7 +10,7 @@ Scratch repo for two things:
    tracker**, built from scratch, whose real purpose is cutting down
    procrastination.
 
-## Why a new tool instead of just using ZeLog
+## Why a new tool instead of just using Log
 
 Logger (and tools like it) logbut it does nothing to catch
 procrastination in the moment — there's no feedback loop. The point of this
