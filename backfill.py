@@ -1,5 +1,5 @@
 """
-Backfill missing ZeLog time entries for days you actually worked but forgot to log.
+Backfill missing Log time entries for days you actually worked but forgot to log.
 
 Usage:
     python backfill.py                # dry run, just prints what would be created
@@ -146,7 +146,8 @@ def random_time_in_window(date_str, start_hhmm, end_hhmm, tz):
     return start_dt + timedelta(seconds=offset)
 
 
-class ZeLogClient:
+class 
+LogClient:
     def __init__(self, cfg):
         self.cfg = cfg
         self.session = requests.Session()
