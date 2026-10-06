@@ -1,4 +1,4 @@
-# zelog-backfill
+# log-backfill
 
 Scratch repo for two things:
 
